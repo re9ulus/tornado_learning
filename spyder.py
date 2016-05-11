@@ -7,8 +7,8 @@ from urlparse import urljoin, urldefrag
 
 from tornado import httpclient, gen, ioloop, queues
 
-base_url = 'http://www.tornadoweb.org/en/stable/'
-concurrency = 10
+base_url = 'https://en.wikipedia.org/'
+concurrency = 50
 
 
 @gen.coroutine
